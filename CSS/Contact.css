@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+input{
+  width: 100%;
+  padding: 0.4rem ;
+  box-sizing: border-box;
+  
+}
+
+
+/* ---------------------------------------utility classes --------------------------------------------- */
+
+.Main-div{
+  max-width: 1200 px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.lrg-heading{
+  font-size: 3rem;
+  font-weight: 700;
+  /* letter-spacing:; */
+}
+
+.icons{
+  font-size: 2rem;
+  color: #555;
+  letter-spacing: 0.2rem;
+  margin-top:2rem;
+  margin-left: 3.2rem;
+}
+
+.para{
+  font-size: 1.4rem;
+  word-spacing: 0.5rem;
+  padding: 1rem 4rem; 
+  font-weight: 400;
+}
+
+/* -------------------- Styling Header -------------------------------------- */
+
+.header{
+  background-color: #555;
+  color: whitesmoke;
+}
+
+.header .Main-div .logo{
+  padding: 2rem 1rem;
+  float: left;
+}
+
+.header .Main-div a{
+  color: whitesmoke;
+  font-size: 2rem;
+  float: right;
+  margin: 3rem 1rem 1rem 2rem;
+  text-transform: uppercase;
+}
+.clearfit{
+  clear: both;
+}
+
+.nav-barr a:hover{
+  border-bottom: 1px solid whitesmoke;
+}
+/* 
+-----------------------header finished --------------------------------- */
+
+
+.content-container{
+  background-color: #ddd;
+  margin: 10rem;
+  text-transform: linear gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+}
+
+
+.content-container .left-section{
+  width: 50%;
+  float: left;
+  background-color: whitesmoke;
+}
+
+.content-container .right-section{
+  width: 50%;
+  float: right;
+  background-color: whitesmoke;
+  padding: 1.5rem;
+     
+}
+
+.content-container ::after{
+  content: '';
+  display: block;
+  clear: both;
+ } 
+
+.content-container .left-section i{
+  display: inline-block;
+  margin-right: 1rem;
+  padding:0.5rem;
+}
+
+.content-container .left-section h2{
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.content-container .left-section .pic{
+  min-heigth: 40%;
+  max-width: 25rem;
+  padding: 2rem 1rem 1rem 3rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.right-section .contact-heading{
+  
+  border-bottom: 0.2rem solid #555;
+  font-weight: 500;
+}
+
+.right-section .msg-1{
+  font-weight: 400;
+  margin: 1rem 0;
+  
+  font-size: 1.5rem;
+}
+
+.content-container .right-section .inp-f{
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.content-container .right-section .form input{
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.content-container .right-section .form textarea{
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.Submitt{
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 0.2rem 1rem;
+  color: #555555;
+  background-color: whitesmoke;
+  border: 0.2rem solid #555;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+
+
+
+

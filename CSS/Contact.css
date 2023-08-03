@@ -17,10 +17,17 @@ body{
 }
 
 input{
-  width: 100%;
+  width: 95%;
   padding: 0.4rem ;
   box-sizing: border-box;
-  
+  font-size: 1.8rem;
+}
+
+#textarea{
+  width: 100%;
+  padding:0.4rem;
+  box-sizing: border-box;
+  font-size: 1.8rem;
 }
 
 
@@ -30,6 +37,7 @@ input{
   max-width: 1200 px;
   width: 90%;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 .lrg-heading{
@@ -119,6 +127,11 @@ header{
   padding-bottom: 2rem;
 }
 
+.right-section .form{
+  padding: 2rem;
+  font-weight: 500;
+}
+
 .right-section h2{
   border-bottom: 2px solid #555;
   margin-bottom: 3rem;
@@ -127,6 +140,11 @@ header{
 .right-section  label ,  .msg-1{
   font-size: 1.3rem;
 }
+
+.right-section  label {
+  font-weight: 600;
+}
+
 .msg-1{
   padding-bottom: 1rem;
 }
@@ -164,3 +182,52 @@ header{
   margin: 2rem;
   
 } 
+
+
+/* -------------------media queries------------- */
+
+@media(max-width : 500px)
+{
+  html{
+
+    font-size: 50%;
+  }
+
+  .content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .right-section  label ,  .msg-1{
+    font-size: 1rem;
+  }
+  
+  .left-section{
+    margin-bottom: 1rem;
+  }
+
+}
+
+@media(min-width : 501px) and (max-width:768px)
+{
+  html{
+
+    font-size: 55%;
+  }
+
+  .content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+}
+
+@media(min-width : 768px)
+{
+  .left-section{
+    padding-left: 1rem;
+    margin-left: 4rem;
+  }
+}
